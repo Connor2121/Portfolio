@@ -1,0 +1,216 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.half-way{
+    font-size: 21px;
+}
+.nav-link{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.intro{
+    text-align: center;
+    font-weight: bold;
+    
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+    
+}
+.aboutMe{
+    border: 2px solid #cacaca;
+    margin-top: 70px;
+    padding: 3rem;
+    background: #fefefe;
+    box-shadow: 0 3px 6px black, 0 3px 6px black;
+    opacity: 0.85;
+    margin-bottom: 75px;
+}
+hr.first {
+    position: relative;
+    top: 36px;
+    right: 310px;
+    border-style: solid;
+    width: 30%;
+    color: black;
+}
+hr.second {
+    position: relative;
+    bottom: 36px;
+    width: 30%;
+    left: 310px;
+}
+hr.third{
+    width: 90%;
+    margin-top: 70px;
+}
+#myPhoto{
+    border-radius: 5%;
+    margin: 1.25rem;
+    height: 950px;
+    width: 600px;
+    filter: grayscale(100%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    border: 1px solid black;
+    box-shadow: 0 3px 6px black, 0 3px 6px black;
+    
+}
+.about-title{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.bio{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+  
+  .expand-column-wrapper .column {
+    
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    -webkit-align-items: center;
+     -ms-flex-align: center;        
+     align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  
+  .expand-column-wrapper .column:hover {
+    -webkit-flex-basis: 30%;
+    -ms-flex-preferred-size: 30%;
+    flex-basis: 30%;
+  }
+  
+  .expand-column-wrapper .column:hover .expand-column-content {
+    opacity: 1;
+  }
+  
+  .expand-column-wrapper .expand-column-content {
+    color: #fefefe;
+    font-weight: bold;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .expand-column-wrapper .column:nth-of-type(1) {
+    background: url("https://images.pexels.com/photos/2154/sky-lights-space-dark.jpg?w=940&h=650&auto=compress&cs=tinysrgb") center center no-repeat;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+  }
+  
+  .expand-column-wrapper .column:nth-of-type(2) {
+    background: url("https://images.pexels.com/photos/113744/helix-nebula-ngc-7293-planetary-fog-constellation-aquarius-113744.jpeg?w=940&h=650&auto=compress&cs=tinysrgb") center center no-repeat;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+  }
+  .expand-column-wrapper .column:nth-of-type(3) {
+    background: url("http://www.designdazzling.com/wp-content/uploads/2010/08/14-butterfly-nebula.jpg") center center no-repeat;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+  }
+  .expand-column-wrapper .column:nth-of-type(4) {
+    background: url("https://i.ytimg.com/vi/cpaBJwHTSUQ/maxresdefault.jpg") center center no-repeat;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+  }
+  #friend-finder {
+    background: url("https://www.ufrgs.br/prorext/wp-content/uploads/2018/03/galaxia.jpg") center center no-repeat;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+  }
+  #react-game {
+    background: url("https://searchengineland.com/figz/wp-content/seloads/2014/08/moon-stars-space-ss-1920-800x450.jpg") center center no-repeat;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+  }
+  #hangman {
+    background: url("http://kb4images.com/images/pictures-of-outer-space/37038893-pictures-of-outer-space.jpg") center center no-repeat;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+  }
+  #poke {
+    background: url("http://woondu.com/images/misc/stunning-pictures-outer-space/outer-space.jpg") center center no-repeat;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+  }
+  #mongo {
+    background: url("https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2011/dragonfish_association_rahman.jpg") center center no-repeat;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+  }
+  #vfm {
+    background: url("https://kids.nationalgeographic.com/content/dam/kids/photos/articles/Space/H-P/milky-way-2.ngsversion.1473048015146.adapt.1900.1.jpg") center center no-repeat;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+  }
+  #tba {
+    background: url("https://i.ytimg.com/vi/-LAB9yKCgBg/maxresdefault.jpg") center center no-repeat;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+  }
+  #upcoming {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Comet_Hale-Bopp_1995O1.jpg/1200px-Comet_Hale-Bopp_1995O1.jpg") center center no-repeat;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+  }
+  .apps{
+      margin: 20px;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .portfolio-wrap{
+      padding-top: 50px;
+  }
+  a:link{
+      text-decoration: none;
+  }
+  .section-2{
+      text-align: center;
+      margin-top: 50px;
+  }
+  .apps{
+    border: 2px solid slategray;
+    background: #fefefe;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  }
+  body{
+    background-image: url("https://d36tnp772eyphs.cloudfront.net/blogs/1/2015/04/santa-cruz.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.connect-box{
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 40px;
+    border: 1px solid black;
+    box-shadow: 0 3px 6px black, 0 3px 6px black;
+}
+      
+  
+  
